@@ -7,7 +7,8 @@
 #   .05 - network_complete.xml parsed to create the bds,rds,pgw lists
 #       - replace checkbox with radiobuttons
 #   .06 - parse network.xml file to create pgw and dsa list
-#       - commit to git repo
+#       - commit to git repo 
+#
 ############################################################################################
 import tkinter, sys, paramiko, threading, os, sys
 import xml.etree.ElementTree as ET
